@@ -14,9 +14,9 @@ public class AppTest {
 		// System.out.println("Hello world test 1 ");
 		
 		  System.setProperty("webdriver.chrome.driver",
-		  "C:\\Users\\admin\\Downloads\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe"
+		  "C:\\Users\\Student\\Downloads\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe"
 		  ); WebDriver driver = new ChromeDriver(); driver.get(
-		  "C:\\Users\\admin\\eclipse-workspace\\mavenproj2\\src\\test\\sample.html");
+		  "C:\\ProgramData\\Jenkins\\.jenkins\workspace\\Selenium_testjob\\mavenproj2\\src\\test\\sample.html");
 		  
 		  List<WebElement> radioButtons = driver.findElements(By.name("color"));
 		  radioButtons.get(2).click();
